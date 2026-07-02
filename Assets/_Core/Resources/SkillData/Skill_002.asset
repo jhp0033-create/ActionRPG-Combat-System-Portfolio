@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 700f583fd1c77bd46bcddd892acdc674, type: 3}
+  m_Name: Skill_002
+  m_EditorClassIdentifier: Assembly-CSharp::ActionRPG.Data.SkillData
+  skillName: "\uBE14\uB808\uC774\uB4DC\\r\\n\uC2A4\uB9E4\uC26C"
+  skillType: 1
+  icon: {fileID: 21300000, guid: 19e500f64a59e7846b0951c2f47151ff, type: 3}
+  animationTriggerName: Skill_Charge
+  chargeAnimationTriggerName: Skill_Charge
+  chargeAnimationStateName: HumanM@Attack1H01_R
+  animSpeedMultiplier: 2.5
+  chargeAnimationStartNormalizedTime: 0
+  damageMultiplier: 5
+  cooldown: 8
+  range: 2.5
+  aoeRadius: 2.5
+  maxCharges: 1
+  chargeTime: 1.5
+  chargePostHitFreezeDuration: 0.4
+  chargeGaugeForwardOffset: -0.1
+  chargeHitForwardOffset: 2.5
+  chargeHitShape: 0
+  chargeHitBoxHalfExtents: {x: 4.6, y: 0.5, z: 3}
+  chargeHitRadius: 0
+  vfxPrefab: {fileID: 3533896497101703157, guid: 81d6ebdbfff002b4e93346e439e6ede1, type: 3}
+  vfxForwardOffset: 1.5
+  vfxHeightOffset: 1
+  vfxScaleMultiplier: 1
+  comboVfxStep1EulerOffset: {x: 0, y: 10, z: 0}
+  comboVfxStep2EulerOffset: {x: 0, y: -10, z: -15}
+  comboVfxStep3EulerOffset: {x: 0, y: -35, z: 40}
+  chargeVfxPrefab: {fileID: 4230533699123781479, guid: 0d7c616b55138ec4aa1adc6df48d165f, type: 3}
+  chargeIndicatorPrefab: {fileID: 1549224219437231188, guid: fab9122b356a18e46be44c0dd3ab1766, type: 3}
+  skillImpactSoundID: 
+  castSoundID: ChargeAttack

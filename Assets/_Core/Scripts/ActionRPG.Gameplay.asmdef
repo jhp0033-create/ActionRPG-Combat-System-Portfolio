@@ -1,0 +1,20 @@
+{
+    "name": "ActionRPG.Gameplay",
+    "rootNamespace": "",
+    "references": [
+        "ActionRPG.Data",
+        "ActionRPG.Core",
+        "DG.Tweening.Modules",
+        "Unity.TextMeshPro",
+        "Unity.InputSystem"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

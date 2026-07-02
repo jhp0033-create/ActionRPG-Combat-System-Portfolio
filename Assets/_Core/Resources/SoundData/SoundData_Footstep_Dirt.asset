@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7bf265349524d048a839546a44e1408, type: 3}
+  m_Name: SoundData_Footstep_Dirt
+  m_EditorClassIdentifier: Assembly-CSharp::ActionRPG.Data.SoundData
+  soundID: Footstep_Dirt
+  clips:
+  - {fileID: 8300000, guid: 60ffc6be98d327546901e3a101c49010, type: 3}
+  - {fileID: 8300000, guid: 7814cd12668f61347a654ad223ce5e4a, type: 3}
+  - {fileID: 8300000, guid: d859f9ec517136d43b7eaa7adc533daf, type: 3}
+  - {fileID: 8300000, guid: 06a8da8a6100cfd4fb9de7fa434d082b, type: 3}
+  baseVolume: 1
+  pitchRandomness: 0.1

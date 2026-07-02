@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 700f583fd1c77bd46bcddd892acdc674, type: 3}
+  m_Name: Skill_001
+  m_EditorClassIdentifier: Assembly-CSharp::ActionRPG.Data.SkillData
+  skillName: "\uC5F0\uC18D \uBCA0\uAE30"
+  skillType: 5
+  icon: {fileID: 21300000, guid: f509e40099b199941a54c1eafa28412b, type: 3}
+  animationTriggerName: Attack
+  chargeAnimationTriggerName: 
+  chargeAnimationStateName: 
+  animSpeedMultiplier: 1.5
+  chargeAnimationStartNormalizedTime: 0.2
+  damageMultiplier: 1.25
+  cooldown: 3
+  range: 2.5
+  aoeRadius: 0
+  maxCharges: 1
+  chargeTime: 2
+  chargePostHitFreezeDuration: 0.6
+  chargeGaugeForwardOffset: 1.5
+  chargeHitForwardOffset: 1.5
+  chargeHitShape: 0
+  chargeHitBoxHalfExtents: {x: 2.5, y: 0.5, z: 2.5}
+  chargeHitRadius: 2.5
+  vfxPrefab: {fileID: 5942177893964023165, guid: 756f427d4060ec7489f15db455b6b5f8, type: 3}
+  vfxForwardOffset: 1.5
+  vfxHeightOffset: 1
+  vfxScaleMultiplier: 1.1
+  comboVfxStep1EulerOffset: {x: 0, y: 10, z: 0}
+  comboVfxStep2EulerOffset: {x: 0, y: 0, z: -20}
+  comboVfxStep3EulerOffset: {x: 0, y: -20, z: 0}
+  chargeVfxPrefab: {fileID: 0}
+  chargeIndicatorPrefab: {fileID: 0}
+  skillImpactSoundID: 
+  castSoundID: 

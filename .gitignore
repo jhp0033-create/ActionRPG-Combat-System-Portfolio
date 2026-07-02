@@ -1,0 +1,47 @@
+# Unity generated folders
+/Library/
+/Temp/
+/Logs/
+/UserSettings/
+/Recordings/
+/obj/
+/.vs/
+/.trash/
+
+# Generated IDE/project files
+/*.csproj
+/*.sln
+
+# Internal planning and agent config
+/_Plan.md
+/.agents/
+
+# Local recovery and patch scratch files
+/combat_extracted.txt
+/floating_recovered.txt
+/skill_extracted.txt
+/scene_names.txt
+/extract.py
+/extract_*.py
+/fix*.cs
+/fix_*.py
+/gen_*.py
+/list.py
+/list_*.py
+/patch_build.py
+/recover_*.py
+/replace_script.py
+/split_script.py
+
+# Unity assets should override parent repository media ignores.
+!Assets/**/*.png
+!Assets/**/*.jpg
+!Assets/**/*.jpeg
+!Assets/**/*.gif
+!Assets/**/*.mp4
+
+# Keep ignored documents/archives paired with their metadata out of Unity tracking.
+Assets/**/*.pdf.meta
+Assets/**/*.zip.meta
+Assets/TextMesh Pro/Glyph Report.txt
+Assets/TextMesh Pro/Glyph Report.txt.meta

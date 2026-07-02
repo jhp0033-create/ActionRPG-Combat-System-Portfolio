@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f2f540c4ec840a6ab4c9b69a1950bbc, type: 3}
+  m_Name: RewardData_09
+  m_EditorClassIdentifier: Assembly-CSharp::ActionRPG.Data.RewardItemData
+  rewardTitle: Modular Architecture
+  rewardDescription: "공통 기능 모듈, 매니저 구조"
+  icon: {fileID: 21300000, guid: ac4789ace0029274d9ee95577e688295, type: 3}
